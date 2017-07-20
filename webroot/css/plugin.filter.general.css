@@ -1,0 +1,122 @@
+.nihfo-plugin-filter {
+	background-color: #ECECEC;
+	margin-top: 5px;
+	display: none;
+}
+.nihfo-plugin-filter form {
+	margin: 0px;
+	width: auto;
+}
+.nihfo-plugin-filter form div {
+	margin:0px;
+}
+.nihfo-plugin-filter h4 {
+	background-color: #D4D4D4;
+	padding: 10px;
+	display:none;
+}
+.nihfo-plugin-filter table {
+	border-width: 0px;
+	margin: 0px;
+}
+.nihfo-plugin-filter table td {
+	border-width: 0px;
+	padding-right: 3px;
+}
+.nihfo-plugin-filter table td div.plugin-filter-holder,
+.nihfo-plugin-filter table .plugin-filter-save {
+	position:relative;
+}
+.nihfo-plugin-filter table td div.plugin-filter-holder span.plugin-filter-arrow {
+	display: none;
+	position: absolute;
+	top: 14px;
+	right: 11px;
+	padding: 3px;
+	font-size: 10px;
+	color: #666;
+}
+
+.nihfo-plugin-filter table td select {
+}
+
+.nihfo-plugin-filter table td select input:focus {
+    outline: 0;
+    background: #fff;
+}
+
+.nihfo-plugin-filter table td select.highlight {
+	background-color: #F6FFB7;
+}
+
+
+/***/
+/*Clearing Floats*/
+.nihfo-plugin-filter table .plugin-filter-save:before, .nihfo-plugin-filter table .plugin-filter-save:after{
+    clear:both;
+}
+
+.nihfo-plugin-filter table .plugin-filter-save:after{
+    clear:both;
+}
+
+.nihfo-plugin-filter table .plugin-filter-save {
+    zoom:1;
+}    
+/* Form wrapper styling */
+.nihfo-plugin-filter table .plugin-filter-save {
+    width: 300px;
+}
+
+/* Form text input */
+.nihfo-plugin-filter table .plugin-filter-save input {
+	display: inline-block;
+	width: auto;
+}
+.nihfo-plugin-filter table .plugin-filter-save input.plugin-filter-save-text {
+    border-radius: 4px 0 0 4px; 
+}
+
+.nihfo-plugin-filter table .plugin-filter-save input.plugin-filter-save-text:focus {
+    outline: 0;
+    background: #fff;
+}
+
+.nihfo-plugin-filter table .plugin-filter-save input.plugin-filter-save-text::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+
+.nihfo-plugin-filter table .plugin-filter-save input.plugin-filter-save-text:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.nihfo-plugin-filter table .plugin-filter-save input.plugin-filter-save-text:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}   
+
+/* Form submit button */
+.nihfo-plugin-filter table .plugin-filter-save input.plugin-filter-save-button {
+	border-left-width: 0px;
+	border-right: 1px solid #BFBFBF;
+    border-radius: 0px 4px 4px 0px; 
+}  
+
+.nihfo-plugin-filter table .plugin-filter-save button:hover{    
+    background: #CCC;
+}  
+
+.nihfo-plugin-filter table .plugin-filter-save button:active,
+.nihfo-plugin-filter table .plugin-filter-save button:focus{  
+    background: #999;
+    outline: 0;  
+}
+.nihfo-plugin-filter table .plugin-filter-save button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}   
