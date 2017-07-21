@@ -3,7 +3,7 @@
 	"description" : "CakePHP Plugin: Allows the apps to filter results in a table",
 	"type" : "cakephp-plugin",
 	"keywords" : ["cakephp", "plugin", "filter"],
-	"license": "proprietary",
+	"license": "mit",
 	"authors": [
 		{
 			"name": "Brian French",
